@@ -24,7 +24,7 @@ describe('LottoProcess 클래스의 당첨 결과값을 담은 배열이 정상 
     ]);
   });
 
-  test('모든 로또의 숫자를 배열로 잘 반환하는지 확인', () => {
+  test('모든 로또의 숫자를 배열로 정상 반환하는지 확인합니다', () => {
     const lotto1 = new Lotto([1, 2, 3, 4, 5, 6]);
     const lotto2 = new Lotto([5, 10, 15, 20, 25, 30]);
     const lottoProcess = new LottoProcess([lotto1, lotto2]);
